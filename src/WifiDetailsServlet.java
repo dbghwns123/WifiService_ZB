@@ -17,7 +17,7 @@ public class WifiDetailsServlet extends HttpServlet {
     // 드라이버 로드
     static {
         try {
-            Class.forName("org.mariadb.jdbc.Driver");  // MySQL JDBC 드라이버 로드
+            Class.forName("org.mariadb.jdbc.Driver");  // Mariadb JDBC 드라이버 로드
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
             throw new RuntimeException("MySQL JDBC Driver 로드 실패", e);

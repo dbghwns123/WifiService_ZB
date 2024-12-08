@@ -58,7 +58,7 @@ public class WifiNearbyServlet extends HttpServlet {
                 "ORDER BY distance";
 
         try {
-            // MySQL JDBC 드라이버를 명시적으로 로드
+            // Mariadb JDBC 드라이버를 명시적으로 로드
             Class.forName("org.mariadb.jdbc.Driver");
 
             try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);

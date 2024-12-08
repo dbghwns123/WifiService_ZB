@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: yuhojun
-  Date: 2024. 12. 6.
-  Time: PM 11:09
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page import="dto.LocationHistory" %>
 <%@ page import="java.util.List" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>

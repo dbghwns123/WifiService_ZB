@@ -47,22 +47,6 @@ public class LocationHistoryServlet extends HttpServlet {
         request.getRequestDispatcher("/locationHistory.jsp").forward(request, response);
     }
 
-//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-//            throws ServletException, IOException {
-//        String idParam = request.getParameter("id");
-//
-//        if (idParam != null) {
-//            int id = Integer.parseInt(idParam);
-//
-//            try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
-//                 PreparedStatement stmt = conn.prepareStatement("DELETE FROM location_history WHERE id = ?")) {
-//
-//                stmt.setInt(1, id);
-//                stmt.executeUpdate();
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//        }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
